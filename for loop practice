@@ -1,0 +1,54 @@
+// A 
+// A A
+// A A A 
+// A A A A
+// A A A A A
+
+// ---------- the first exemple
+// for (let i = 1; i <= 5; i++){
+//     console.log('A '.repeat(i).trim())
+// }
+
+// ---------- the second exemple
+let n = 5
+for(let i = 1; i <= n; i++){
+    console.log('A '.repeat(i).trim())
+} 
+
+console.log('-------------------------- ABC-------------------------------\n');
+
+// console.log(String.fromCharCode(66)) //display alphabet 
+
+let str = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+//A
+// A B 
+// A B C 
+//A B C D
+//A B C D E
+
+for(let i = 1; i <= 8; i++){
+    let result = "";
+    for(let j = 1; j <= i; j++){
+        result = result + " "+ str[j - 1];
+    }
+    console.log(result);
+}
+
+console.log('-------------------------- next-------------------------------\n');
+
+//A
+// B B 
+// C C C 
+//D D D D 
+//E E E E E 
+
+console.log('-------------------------- the first example-------------------------------\n');
+for ( let i = 1; i <= n; i++ ){
+    console.log((str[i - 1] + " ").repeat(i));
+}
+
+console.log('-------------------------- the second example-------------------------------\n');
+for(let i = 1; i <= n; i++){
+    let letter = str[i - 1]
+    console.log((letter + " ").repeat(i))
+}
