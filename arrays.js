@@ -91,10 +91,10 @@
 // string[2] = 'C';
 // console.log(string);
 
-const array = ['a', 'b', 'c', 'd', 'e'];
+// const array = ['a', 'b', 'c', 'd', 'e'];
 
-array[2] = 'C';
-console.log(array);
+// array[2] = 'C';
+// console.log(array);
 
             
 // ========== Методы pop/push, shift/unshift ======
@@ -136,7 +136,7 @@ console.log(array);
 
 // const arr1 = [1, 2, 3];
 // const arr2 = ['a', 'b', 'c'];
-// arr1.push(arr2)
+// // arr1.push(arr2)
 // console.log(arr1);
 
 // push() + spread operator ...
@@ -202,10 +202,43 @@ console.log(array);
 //   console.log(nums[i]);
 // }
 
+
+
+// const code = [-1, 1, 2, 3, 4]
+// const description = ['Internal error', 'Unknown error', 'Player not found', 'Campaign not found', 'Bet not found']
+// let sum = ""
+// for(let i = 0; i < code.length; i++){
+//     sum = code[i] + " " + description[i];
+// }
+// console.log(sum)
+
+
+
+
+// const code = [-1, 1, 2, 3, 4]
+// const description = ['Internal error', 'Unknown error', 'Player not found', 'Campaign not found', 'Bet not found']
+// let str = "";
+// for(let i = 0; i < code.length; i++){
+//     const errorCode = (code[i] + " " + description[i] + ", ");
+//     str = str + errorCode;
+// };
+// console.log(str)
+
+
+
+const code = [-1, 1, 2, 3, 4]
+const description = ['Internal error', 'Unknown error', 'Player not found', 'Campaign not found', 'Not found']
+let sum = ""
+for(let i = 0; i < code.length; i++){
+    sum = code[i] + " " + description[i];
+    console.log(sum)
+}
+// console.log(sum)
+
 // --- SUM
 
 // let sum = 0; 
-// for (let i = 0; i < nums.length; i++) {
+// for(let i = 0; i < nums.length; i++) {
 //   sum = sum + nums[i];
 // }
 // console.log(sum);
