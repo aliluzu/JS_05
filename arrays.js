@@ -268,13 +268,13 @@ for(let i = 0; i < code.length; i++){
 
 // // --- find MIN
 
-// let min = nums[0];    
-// for (let i = 1; i < nums.length; i++) {
-//   if (nums[i] < min) { 
-//     min = nums[i];
-//   }   
-// }
-// console.log(min);
+let min = nums[0];    
+for (let i = 1; i < nums.length; i++) {
+  if (nums[i] < min) { 
+    min = nums[i];
+  }   
+}
+console.log(min);
 
 
 //  =========== for..of loop

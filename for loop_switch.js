@@ -54,6 +54,91 @@
 //   default:
 //    console.log('Wrong day');
 // }
+// **********************************************************************
+const Data = {
+   "BetType": 3,
+   "SystemMinCount": 2,
+   "BonusId": "3798"
+}
+// let a = Data.SystemMinCount
+// let b = Data.BetType
+let bo = Data.BonusId
+
+// if(bo != null){
+
+// }
+switch(bo){
+   case null:
+      console.log('BonusId was not used')
+      break;
+   default:
+      console.log(typeof bo)
+}
+
+
+
+
+
+
+
+// switch (Data.BetType){
+//    case 1:
+//       console.log('Single');
+//       break;
+//    case 2:
+//       console.log('Multiple');
+//       break;
+//    case 3: 
+//       console.log('System');
+//       break;
+//    case 4:
+//       console.log('Fold');
+//       break;
+//    default:
+//       console.log('Error. This type not exist');
+
+// }
+
+// switch(Data.SystemMinCount){
+//    case 1: console.log('Single or Multiple');
+//    break;
+//    case 2: console.log('System or Folds');
+//    break;
+//    default: console.log('Error. Check BetType')
+// }
+
+// **********************************************************************
+
+
+// switch(a){
+//    case a = 1:
+//       console.log('Single or Multiple. CHECK BetType should be equal 1 OR 2');
+//       break;
+//    case a = 2:
+//        console.log('System or Folds. CHECK BetType should be equal 3 OR 4');
+//       break;
+//    default: console.log('Error. Check BetType');
+// }
+
+// **********************************************************************
+
+
+
+// switch (b){
+//    case 1:
+//    case 2:
+//       console.log('SystemMinCount = 1');
+//       break;
+//    case 3:
+//    case 4:
+//       console.log('SystemMinCount = 2');
+//       break;
+//    default:
+//       console.log('Error.Check');
+//       break;
+
+// }
+
 
 // switch (numberOfDay) {  //2
  
