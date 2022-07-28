@@ -196,11 +196,11 @@
 
 // =========== Loops and Arrays
 
-// const nums = [4, 8, 99, 9, 7, 777, 54];
+const nums = [4, 8, 99, 9, 7, 777, 54];
 
-// for (let i = 0; i < nums.length; i++) {
-//   console.log(nums[i]);
-// }
+for (let i = 0; i < nums.length; i++) {
+  console.log(nums[i]);
+}
 
 
 
@@ -213,7 +213,10 @@
 // console.log(sum)
 
 
-
+const stat = ["Active", "Used","First Deposit","Reload"]
+for(let i = 0; i < stat.length; i++){
+  console.log(stat[i])
+}
 
 // const code = [-1, 1, 2, 3, 4]
 // const description = ['Internal error', 'Unknown error', 'Player not found', 'Campaign not found', 'Bet not found']

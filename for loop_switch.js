@@ -55,31 +55,59 @@
 //    console.log('Wrong day');
 // }
 // **********************************************************************
-const Data = {
-   "BetType": 3,
-   "SystemMinCount": 2,
-   "BonusId": "3798"
-}
-// let a = Data.SystemMinCount
-// let b = Data.BetType
-let bo = Data.BonusId
-
-// if(bo != null){
-
+// const Data = {
+//    "BetType": 3,
+//    "SystemMinCount": 2,
+//    "BonusId": "3798"
 // }
-switch(bo){
-   case null:
-      console.log('BonusId was not used')
-      break;
-   default:
-      console.log(typeof bo)
+// // let a = Data.SystemMinCount
+// // let b = Data.BetType
+// let bo = Data.BonusId
+
+// // if(bo != null){
+
+// // }
+// switch(bo){
+//    case null:
+//       console.log('BonusId was not used')
+//       break;
+//    default:
+//       console.log(typeof bo)
+// }
+
+
+
+const Data = {
+   "Type": 6,
+   "Subtype": "No Risk Bet",
+   "BonusStatus": "Used"
 }
 
+let t = Data.Type
+// switch(t){
+//    case 1: console.log("Sport Bonus");
+//    break;
+//    case 6: console.log("Free bet");
+//    break;
+//    default: console.log("Eror.This type not exist")
+// }
 
 
-
-
-
+let st = Data.Subtype
+switch(st, t){
+   case "First Deposit":
+   case "Reload":
+   case 1:
+      console.log("Bonus type: Sport bonus");
+   break;
+   case "Free Bet":
+   case "No Risk Bet":
+   case 6:   
+      console.log("Bonus type: Free Bet");
+   break;
+   default:
+      console.log("Error")
+}
 
 // switch (Data.BetType){
 //    case 1:
