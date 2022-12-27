@@ -196,11 +196,11 @@
 
 // =========== Loops and Arrays
 
-const nums = [4, 8, 99, 9, 7, 777, 54];
+// const nums = [4, 8, 99, 9, 7, 777, 54];
 
-for (let i = 0; i < nums.length; i++) {
-  console.log(nums[i]);
-}
+// for (let i = 0; i < nums.length; i++) {
+//   console.log(nums[i]);
+// }
 
 
 
@@ -213,10 +213,10 @@ for (let i = 0; i < nums.length; i++) {
 // console.log(sum)
 
 
-const stat = ["Active", "Used","First Deposit","Reload"]
-for(let i = 0; i < stat.length; i++){
-  console.log(stat[i])
-}
+// const stat = ["Active", "Used","First Deposit","Reload"]
+// for(let i = 0; i < stat.length; i++){
+//   console.log(stat[i])
+// }
 
 // const code = [-1, 1, 2, 3, 4]
 // const description = ['Internal error', 'Unknown error', 'Player not found', 'Campaign not found', 'Bet not found']
@@ -229,13 +229,13 @@ for(let i = 0; i < stat.length; i++){
 
 
 
-const code = [-1, 1, 2, 3, 4]
-const description = ['Internal error', 'Unknown error', 'Player not found', 'Campaign not found', 'Not found']
-let sum = ""
-for(let i = 0; i < code.length; i++){
-    sum = code[i] + " " + description[i];
-    console.log(sum)
-}
+// const code = [-1, 1, 2, 3, 4]
+// const description = ['Internal error', 'Unknown error', 'Player not found', 'Campaign not found', 'Not found']
+// let sum = ""
+// for(let i = 0; i < code.length; i++){
+//     sum = code[i] + " " + description[i];
+//     console.log(sum)
+// }
 // console.log(sum)
 
 // --- SUM
@@ -271,13 +271,13 @@ for(let i = 0; i < code.length; i++){
 
 // // --- find MIN
 
-let min = nums[0];    
-for (let i = 1; i < nums.length; i++) {
-  if (nums[i] < min) { 
-    min = nums[i];
-  }   
-}
-console.log(min);
+// let min = nums[0];    
+// for (let i = 1; i < nums.length; i++) {
+//   if (nums[i] < min) { 
+//     min = nums[i];
+//   }   
+// }
+// console.log(min);
 
 
 //  =========== for..of loop

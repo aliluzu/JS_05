@@ -81,3 +81,12 @@
 
 // ****************For IN*********************
 
+const student = {
+    name: 'Alina',
+    class:  12,
+    speacialst: 'QA'
+}
+
+for (let key in student){
+    console.log(`${key} => ${student[key]}`);
+}
